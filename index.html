@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Código Secreto</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1 class="titulo">Desvenda o código Secreto</h1>
+
+  <main class="main">
+    <section class="form box">
+      <form action="javascript:void(0);">
+        <label for="input-texto">Apenas letras minúsculas, sem acento</label>
+        <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="Insira o texto aqui">
+        <input class="btn" type="button" value="Criptografar!" id="btn-cripto" onclick="crip()">
+        <input class="btn" type="button" value="Descriptografar!" id="btn-descripto" onclick="descrip()">
+        
+      </form>
+    </section>
+  
+    <section class="msg box">
+      <p>Mensagem <b> criptografada: </b></p>
+      <textarea class="text-input" id="msg" readonly></textarea>
+      <input class="btn" type="button" value="Copiar" id="copiar" onclick="copiar()">
+    </section>
+  </main>
+  
+  <footer class="rodape">
+    <p>Desenvolvido por NicoleGarilho.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
