@@ -1,4 +1,3 @@
-![crip](https://github.com/user-attachments/assets/45209d42-ac63-4ec8-895e-e43ae602d7f0)
 # Código Secreto
 ## Descrição
 O projeto "Código Secreto" é uma aplicação web que permite criptografar e descriptografar texto com base em uma substituição de caracteres definida.
@@ -25,3 +24,5 @@ e descriptografia utilizando JavaScript, CSS e HTML.
 - 'index.html:' Arquivo HTML que define a estrutura da aplicação.
 - 'style.css:' Arquivo CSS para a estilização da página.
 - 'script.js:' Arquivo JavaScript contendo a lógica para criptografar, descriptografar e copiar o texto.
+
+![crip](https://github.com/user-attachments/assets/45209d42-ac63-4ec8-895e-e43ae602d7f0)
